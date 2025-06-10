@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <main style={{
       fontFamily: 'sans-serif',
-      minHeight: '100vh',
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
       alignItems: 'center',
+      minHeight: '100vh',
       padding: '2rem',
       backgroundColor: '#f9f9f9'
     }}>
@@ -25,6 +25,9 @@ export default function Home() {
       }}>
         <h1 style={{ marginBottom: '0.5rem' }}>NFC Smart Receipts</h1>
         <p style={{ color: '#555', marginBottom: '1.5rem' }}>
+          Powered by Fordify Limited
+        </p>
+        <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
           Tap your phone on an NFC tag to instantly preview a digital receipt.
           Enter your email to receive a copy — fast, simple, eco-friendly.
         </p>
@@ -46,13 +49,7 @@ export default function Home() {
           For demonstration purposes only
         </p>
       </div>
-
-      {/* Footer */}
-      <footer style={{ fontSize: '0.8rem', color: '#888', marginTop: '2rem' }}>
-        Powered by Fordify Limited
-      </footer>
     </main>
   );
 }
-
 
