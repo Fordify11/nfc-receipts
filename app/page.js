@@ -24,8 +24,6 @@ export default function Home() {
         textAlign: 'center'
       }}>
         <h1 style={{ marginBottom: '0.5rem' }}>NFC Smart Receipts</h1>
-        <p style={{ color: '#555', marginBottom: '1.5rem' }}>
-          Powered by Fordify Limited
         </p>
         <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>
           Tap your phone on an NFC tag to instantly preview a digital receipt.
@@ -47,6 +45,7 @@ export default function Home() {
 
         <p style={{ marginTop: '2rem', fontSize: '0.85rem', color: '#999' }}>
           For demonstration purposes only
+          Powered by Fordify Limited
         </p>
       </div>
     </main>
