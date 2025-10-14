@@ -63,7 +63,7 @@ export default async function handler(req, res) {
           </h3>
           <p style="text-align: center; font-size: 0.8rem;">Token: ${token}</p>
           <p style="text-align: center; color: #777; font-size: 0.75rem;">
-            Powered by Fordify Limited
+            Powered by Fordify Limited!
           </p>
         </div>
       `
